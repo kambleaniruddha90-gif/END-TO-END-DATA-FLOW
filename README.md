@@ -1,8 +1,8 @@
-# AI Interview System: End-to-End Data Pipeline
+# Interview System: End-to-End Data Pipeline
 
 📌 **Project Overview**
 
-This project establishes a robust Phase 1 System Foundation for an AI-based Interviewer. /n
+This project establishes a robust Phase 1 System Foundation for an AI-based Interviewer. 
 It solves the critical problem of data consistency by ensuring that audio, video, and text processing modules communicate through defined JSON schemas, preventing pipeline breakage during simultaneous processing.
 
 ## 🎯 Objective
