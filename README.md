@@ -1,10 +1,10 @@
 # AI Interview System: End-to-End Data Pipeline
-📌 ## Project Overview
+📌 **Project Overview **
 This project establishes a robust Phase 1 System Foundation for an AI-based Interviewer. It solves the critical problem of data consistency by ensuring that audio, video, and text processing modules communicate through defined JSON schemas, preventing pipeline breakage during simultaneous processing.🎯## Objective
 Prevent Broken Pipelines: Strict data validation between modules.
 Multimodal Integration: Simultaneous processing of audio (Mic), video (Camera), and text (LLM).
 Reliability: Built-in failure flows for API timeouts and empty inputs.
-📂 ## Project Structure
+📂 ** Project Structure**
 ai_interview_system/
 ├── app.py                  # Entry point (Main Orchestrator)
 ├── io_layer/               # Hardware Interface Layer
@@ -19,7 +19,7 @@ ai_interview_system/
 │   └── brain.py            # Evaluation & Decision Engine
 ├── logs/                   # JSON storage for every turn
 └── requirements.txt        # System dependencies [cite: 1]
-🛠️## Data Pipeline & Formats
+🛠️**Data Pipeline & Formats**
 ** A. Speech-to-Text (STT) **
 Converts raw audio arrays into structured text data.
 Output Format:JSON{
